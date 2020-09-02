@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tic Tac Toe!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js" defer></script>
+  </head>  
+  
+  <body>
+    <h1>
+      Tic Tac Toe!
+    </h1>
+    <center><div id = "reset"><input type = "button" onclick = "startgame()" value = "START GAME" id = "allbuttons"/></div></center>
+    <br>
+    
+<!--     <center><img src="https://cdn.glitch.com/b458b428-93bc-4861-b2e0-c50cc1187dd8%2Ftictactoe.png?v=1598902166713"></center> -->
+    <div class="flex-container flex-column">
+      <div class="flex-container flex-wrap" id="board">
+      <div class="square" id =  "square0" onclick= "whenclicked(0)"></div>
+      <div class="square" id =  "square1" onclick= "whenclicked(1)"></div>
+      <div class="square" id =  "square2" onclick= "whenclicked(2)"></div>
+      <div class="square" id =  "square3" onclick= "whenclicked(3)"></div>
+      <div class="square" id =  "square4" onclick= "whenclicked(4)"></div>
+      <div class="square" id =  "square5" onclick= "whenclicked(5)"></div>
+      <div class="square" id =  "square6" onclick= "whenclicked(6)"></div>
+      <div class="square" id =  "square7" onclick= "whenclicked(7)"></div>
+      <div class="square" id =  "square8" onclick= "whenclicked(8)"></div>
+      </div>
+    </div>
+    
+    <br>
+    <center><div>
+      <span id = "playerturn"></span>
+      <br>
+      <span id = "winner"></span>
+    </div>
+    </center>
+    
+  </body>
+</html>
