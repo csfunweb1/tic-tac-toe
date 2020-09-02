@@ -1,0 +1,98 @@
+/* CSS HEX */
+/* --rich-black-fogra-29: #0e1116ff;
+--independence: #374a67ff;
+--dark-blue-gray: #616283ff;
+--mountbatten-pink: #9e7b9bff;
+--bright-lilac: #cb9cf2ff; */
+
+body{
+background-color: #0e1116ff 
+}
+h1{
+  text-align: center;
+  font-family: 'Balsamiq Sans', cursive;
+  color: #cb9cf2ff;
+  font-size: 2.5em;
+}
+#allbuttons{
+  background-color: limegreen;
+  color: white;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 1.4em;
+  text-align: center;
+  border: 2.5px solid white;
+  border-radius: 10px;
+  margins: 2px;
+}
+#playerturn{
+  color: white;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 1.4em;
+  text-align: center;
+}
+.flex-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-column{
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+  height: 432px;
+  width: 432px;
+}
+.square{
+  border: 2px solid limegreen;
+  height: 140px;
+  width: 140px;
+  text-align: center;
+  color: #cb9cf2ff;
+  font-size: 8em;
+  font-family: 'Balsamiq Sans', cursive;
+}
+#square0{
+  border-left: 0px;
+  border-top: 0px;
+}
+#square1{
+  border-top: 0px;
+}
+#square2{
+  border-right: 0px;
+  border-top: 0px;
+}
+#square3{
+  border-left: 0px;
+  border-bottom: 0px;
+  border-top: 0px;
+}
+#square4{
+  border-bottom: 0px;
+  border-top: 0px;
+}
+#square5{
+  border-right: 0px;
+  border-bottom: 0px;
+  border-top: 0px;
+}
+#square6{
+  border-left: 0px;
+  border-bottom: 0px;
+}
+#square7{
+  border-bottom: 0px;
+}
+#square8{
+  border-right: 0px;
+  border-bottom: 0px;
+}
+#winner{
+  color: #cb9cf2ff;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 1.8em;
+  text-align: center;
+}
