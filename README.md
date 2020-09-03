@@ -1,4 +1,6 @@
-# This is a basic 2 player tic tac toe game. 
+# Basic tic tac toe game.
+<br>
+2 Player right now, Computer player soon to be added
 <br>
 Coded using <b>Javascript / HTML / CSS</b>
 <br>
