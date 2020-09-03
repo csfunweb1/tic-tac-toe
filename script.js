@@ -8,6 +8,7 @@ var startButtonHTML = '<input type = "button" onclick = "startgame()" value = "S
 var clickstartButtonMessage = "click the 'start game' button";
 var gameOverResetMessage = "Game is over. Click the 'reset game' button";
 var emptySquareMessage = "Please click on an empty square";
+var isATie = false;
 
 /*function controls 'start game' button
 unlocks board
@@ -39,6 +40,7 @@ function resetgame() {
   document.getElementById("winner").innerHTML = "";
   boardUnlocked = false;
   xOrO = "X";
+  isATie = false;
 }
 
 /*function checks if the board is locked
@@ -100,7 +102,7 @@ function changeTurn() {
 }
 
 function displayResult() {
-  if (roundcount == 9) {
+  if (isATie) {
     document.getElementById("winner").innerHTML = "Tie, no one wins";
     document.getElementById("playerturn").innerHTML = "";
   } else {
@@ -163,6 +165,7 @@ function checkwin(boardarray) {
   ) {
     return true;
   } else if (roundcount == 9) {
+    isATie = true;
     return true;
   } else {
     return false;
