@@ -4,6 +4,6 @@ Coded using <b>Javascript / HTML / CSS</b>
 <br>
 Feel free to use <i>my</i> code. 
 <br>
-You can find my live website [here:](https://tic-tac-toe5.glitch.me/)
+You can find my live website <a href = "https://tic-tac-toe5.glitch.me/">here</a>
 
 
